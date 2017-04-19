@@ -449,6 +449,169 @@ address {
   background-color: rgba(0,0,0, 0.7);
 }
 
+
+.title-banner-subtext {
+  background-color: #fe5001;
+  height: 275px;
+  margin-bottom: 50px;
+}
+
+.title-banner-subtext h1 {
+  margin-top: 80px;
+  color: #fff;
+}
+
+.title-banner-subtext p {
+  color: #fff;
+}
+
+.space-divide {
+  margin-top: 25px;
+}
+
+.bold-text{
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.breadcrumb-trail {
+   color: #fe5001;
+}
+
+.breadcrumb-trail {
+   color: #fe5001;
+   margin-top: 100px;
+} 
+
+.space-breadcrumb {
+   margin-bottom: 60px;
+}
+
+.main-background-image {
+  background: url(../assets/images/services-background-image.jpg); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  height: 500px;
+}
+
+.main-background-image h2 {
+  padding-top: 110px;
+  color: white;
+}
+
+        .main-background-image h1, small, p  {
+          color: white;
+        }
+
+                      .main-background-image p  {
+                        margin-top: 25px;
+                        margin-bottom: 20px;
+                       }
+
+.container button {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+            .container button p {
+              margin-bottom: 0;
+              margin-top: 0;
+              padding-bottom: 12px;
+              padding-top: 6px;
+            }
+
+.button-caret {
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}             
+
+button p {
+  float: left;
+}
+
+.down-arrow {
+  margin: 85px auto;
+  display: block;
+}
+
+.process-text p {
+  color: #3d3d3d;
+  font-size: 22px;
+}
+
+.process-text h2 {
+  color: #ff5000;
+  margin-top: 60px;
+  margin-bottom: 31px;
+}
+
+
+.cladding-fabricatons p {
+  font-size: 14px;
+}
+
+.cladding-fabricatons h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cladding-fabricatons img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.corrosion p {
+  color: #616161;
+  font-size: 14px;
+}
+
+.corrosion {
+  margin-bottom: 75px;
+}
+
+        .corrosion h2 {
+          color: #ff5000;
+          font-size: 16px;
+          font-weight: bold;
+        }
+
+.materials-use h2 {
+  color: #ff5000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.materials-use p {
+  color: #616161;
+  font-size: 14px;
+  margin-top: 107px;
+}
+
+.flexibility {
+  background-color: #3d3d3d;
+  padding-bottom: 60px;
+  border-bottom: 2px solid magenta;
+}
+
+            .flexibility h2 {
+              color: #d9d9d9;
+              font-size: 40px;
+            }
+
+                        .flexibility p {
+                          color: #d9d9d9;
+                          font-size: 14px;
+                        }
+
+.flexibilty-quality-picture  {
+    margin-bottom: -132px;
+    margin-top: 58px;
+}
+
+
 /* Media Queries */
 
 
@@ -517,6 +680,32 @@ address {
         .address-details {
           width: 100%;
         }
+
+        .main-background-image {
+          height: 675px;
+        }
+
+        .cladding-fabricatons img {
+          display: block;
+          margin: 0 auto;
+          width: 100%;
+        }
+
+        .container button {
+          background-color: transparent;
+          border: 1px solid white;
+          width: 100%;
+        }
+
+        .materials-use img {
+          width: 100%;
+        }
+
+                .second-picture {
+                  margin-top: 40px;
+                }
+
+
 
 }
 
