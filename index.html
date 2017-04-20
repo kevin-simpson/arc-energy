@@ -15,88 +15,250 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
             <div class="container">
                 <nav id="navbar" class="navbar navbar-expand-lg  bg-faded fixed-top">
                       <div class="row">
-                            <div class="col-md-2 col-sm-3">
+                            <div class="col-xs-12 col-md-2 col-sm-3">
                               <a href="#"><img class="arc-logo" src="assets/images/arc-logo.svg"></a>
+                                <button type="button" class="nav-button pull-right navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				                    <span class="sr-only">Toggle navigation</span>
+				                    <span class="icon-bar"></span>
+				                    <span class="icon-bar"></span>
+				                    <span class="icon-bar"></span>
+               					</button>
                             </div>
-                            <div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-0 collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                            <div class="col-xs-12 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-0 collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">    
                                    <!-- <ul class="nav navbar-nav top-nav"> -->
-    	                        <ul id="primary-menu" class="nav navbar-nav top-nav">
-    							    <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-40"><a href="#" class="nav-link">Home</a></li>
-    							    <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-41"><a data-toggle="dropdown" href="#" class="nav-link">Services</a>
-    							        <ul class="dropdown-menu" data-title="Services">
-    							            <li id="menu-item--8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--8">
-    							                <a href="#" class="nav-link">Weld Overlay Cladding
-    							            <small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							            <li id="menu-item--9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--9">
-    							                <a href="#" class="nav-link">Fabrication Specialists<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a>
-    							            </li>
-    							            <li id="menu-item--10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--10"><a href="#" class="nav-link">ASME U + U2 Stamp Accreditations<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							            <li id="menu-item--11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--11"><a href="#" class="nav-link">Design &amp; Management<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							        </ul>
-    							    </li>
-    							    <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="#" class="nav-link">Sectors</a></li>
-    							    <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-43 "><a data-toggle="dropdown" href="#" class="nav-link" aria-expanded="true">Accreditations</a>
-    							        <ul class="dropdown-menu" data-title="Accreditations">
-    							            <li id="menu-item--12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--12"><a href="#" class="nav-link">ISO 9001<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							            <li id="menu-item--13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--13"><a href="#" class="nav-link">ISO 14001<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							            <li id="menu-item--14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--14"><a href="#" class="nav-link">ISO 3834-2<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							            <li id="menu-item--15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--15"><a href="#" class="nav-link">OHSAS 18001<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							            <li id="menu-item--16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--16"><a href="#" class="nav-link">ASME U + U2 &amp; UB<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							            <li id="menu-item--17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--17"><a href="#" class="nav-link">IIP SILVER<small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></a></li>
-    							        </ul>
-    							    </li>
-    							    <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="#" class="nav-link">News</a></li>
-    							    <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="#" class="nav-link">About us</a></li>
-    							    <li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-46"><a href="#" class="nav-link">Contact</a>
-    							    </li>
-    							</ul> 
+	    	                        <ul id="primary-menu" class="nav navbar-nav top-nav">
+	    							    <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-40"><a href="#" class="nav-link">Home</a></li>
+	    							    <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-41"><a data-toggle="dropdown" href="#" class="nav-link">Services</a>
+	    							        <ul class="dropdown-menu" data-title="Services">
+	    							            <li id="menu-item--8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--8">
+	    							                <a href="#" class="nav-link">Weld Overlay Cladding
+	    							            <span><small class="nav-desc">Lorem<span class="hidden-xs"><br>ipsum<br>dolor emmet</span></small></span></a></li>
+	    							            <li id="menu-item--9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--9">
+	    							                <a href="#" class="nav-link">Fabrication Specialists<small class="nav-desc">Lorem<span class="hidden-xs"><br>ipsum<br>dolor emmet</span></small></a>
+	    							            </li>
+	    							            <li id="menu-item--10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--10"><a href="#" class="nav-link">ASME U + U2 Stamp Accreditations<span class="hidden-xs"><small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</small></span></a></li>
+	    							            <li id="menu-item--11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--11"><a href="#" class="nav-link">Design &amp; Management<small class="nav-desc">Lorem<span class="hidden-xs"><br>ipsum<br>dolor emmet</small></span></a></li>
+	    							        </ul>
+	    							    </li>
+	    							    <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="#" class="nav-link">Sectors</a></li>
+	    							    <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-43 "><a data-toggle="dropdown" href="#" class="nav-link" aria-expanded="true">Accreditations</a>
+	    							        <ul class="dropdown-menu" data-title="Accreditations">
+	    							            <li id="menu-item--12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--12"><a href="#" class="nav-link">ISO 9001<span class="hidden-xs"><small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</span></small></a></li>
+	    							            <li id="menu-item--13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--13"><a href="#" class="nav-link">ISO 14001<span class="hidden-xs"><small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</span></small></a></li>
+	    							            <li id="menu-item--14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--14"><a href="#" class="nav-link">ISO 3834-2<span class="hidden-xs"><small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</span></small></a></li>
+	    							            <li id="menu-item--15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--15"><a href="#" class="nav-link">OHSAS 18001<span class="hidden-xs"><small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</span></small></a></li>
+	    							            <li id="menu-item--16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--16"><a href="#" class="nav-link">ASME U + U2 &amp; UB<span class="hidden-xs"><small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</span></small></a></li>
+	    							            <li id="menu-item--17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item--17"><a href="#" class="nav-link">IIP SILVER<span class="hidden-xs"><small class="nav-desc">Lorem<br>ipsum<br>dolor emmet</span></span></small></a></li>
+	    							        </ul>
+	   							    </li>
+	    							    <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="#" class="nav-link">News</a></li>
+	    							    <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="#" class="nav-link">About us</a></li>
+	    							    <li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-46"><a href="#" class="nav-link">Contact</a>
+	    							    </li>
+	    							</ul> 	
                            </div>
-                     </div>  
-             </nav>
-    </header>
+                     </div>      
+                </nav>  
+            </div>
+        </nav>
+    </header
     <div class="container-fluid">
-        
+		<div class="row">
+			<div class="no-padding promo col-md-12">
+				<video autoplay="autoplay">
+					<source src="assets/media/banner-video.mp4" type="video/mp4">
+					<source src="assets/media/banner-video.ogg" type="video/ogg">
+				</video>
+				<!-- <img src="assets/media/banner-video-poster.png"> -->
+				<div class="container">
+					<div class="row">
+						<div class="caption col-sm-7 col-md-7">
+							<p class="hidden-xs">Arc Energy specialises in the supply of corrosion <br />
+								resistant <a href="#">weld overlay cladding</a> and the <br />
+								manufactures of specialist fabrications
+								for the <br /><a href="#"> nuclear</a>, <a href="#">oil &amp; gas</a>, <a href="#">renewable</a>, <a href="#">hydro</a> and<br />
+								<a href="#">naval industries</a>, delivered by a highly qualified,<br />
+								 <a href="#">fully accredited </a>and experienced team.
+							</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
 
-    
+		<div class="container overlap">
+			<div class="row">
+				<div class="services col-xs-12 col-sm-6 col-md-3">
+					<h2 class="extra-padding">Weld Cladding</h2>
+				</div>
+				<div class="services col-xs-12 col-sm-6 col-md-3">
+					<h2 class="extra-padding">Fabrication</h2>
+				</div>
+				<div class="services col-xs-12 col-sm-6  col-md-3">
+					<h2 class="extra-padding">Machining</h2>
+				</div>
+				<div class="services col-xs-12 col-sm-6 col-md-3">
+					<h2>Project<br />
+						Management</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="subsection-title col-xs-12 col-sm-6 col-md-3">
+					<p class="sub-title first-title">latest news</p>
+					<h2>Arc Energy anounces <br/> acquisition of <br class="hidden-sm" /> CLG Engineering</h2>
+					<section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="read-more">READ MORE....</a>
+						<hr>
+					</section>
 
+				</div>
+				<div class="subsection-title col-xs-12 col-sm-6 col-md-3">
+					<p class="sub-title second-title">oil & gas</p>
+					<h2>Submerged Platforms <br />to  Revolutionize Offshore Oil & Gas</h2>
+					<section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="read-more">READ MORE....</a>
+						<hr>
+					</section>
+
+				</div>
+				<div class="subsection-title col-xs-12 col-sm-6 col-md-3">
+					<p class="sub-title third-title">nuclear</p>
+					<h2>Arc Energy announces<br />acquisition if CLG <br /> Engineering</h2>
+					<section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="read-more">READ MORE....</a>
+						<hr>
+					</section>
+
+				</div>
+				<div class="subsection-title col-xs-12 col-sm-6 col-md-3">
+					<p class="sub-title fourth-title">hydro</p>
+					<h2>Arc Energy announces<br />acquisition if CLG <br /> Engineering</h2>
+					<section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="read-more">READ MORE....</a>
+						<hr>
+					</section>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="subsection-title col-xs-12 col-sm-6 col-md-3">
+					<p class="sub-title fifth-title">petrochemical</p>
+					<h2>Submerged Platforms<br />To Revolutionize Offshore <br class="visible-sm" />Oil &amp; Gas</h2>
+					<section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="read-more">READ MORE....</a>
+						<hr class="visible-xs visible-sm">
+					</section>
+				</div>
+				<div class="subsection-title col-xs-12 col-sm-6 col-md-3">
+					<p class="sub-title sixth-title">defence</p>
+					<h2>Arc Energy announces<br />acquition of CLG <br />Engineering</h2>
+					<section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="read-more">READ MORE....</a>
+						<hr class="visible-xs visible-sm">
+					</section>
+
+				</div>
+				<div class="subsection-title col-xs-12 col-sm-6 col-md-3">
+					<p class="sub-title seventh-title">agritech</p>
+					<h2>Arc Energy announces<br />acquition of CLG <br />Engineering</h2>
+					<section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="read-more">READ MORE....</a>
+						<hr class="visible-xs visible-sm">
+					</section>
+
+				</div>
+				<div class="subsection-title col-xs-12 col-sm-6 col-md-3">
+					<p class="sub-title eighth-title">renewable energy</p>
+					<h2>Here's what Trump's<br />budget means for<br />renewable energy</h2>
+					<section>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="read-more">READ MORE....</a>
+						<hr class="visible-xs visible-sm">
+					</section>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container-fluid image-video">
+		<div class="row">
+			<div class="col-md-6 first-image-above-footer hidden-xs hidden-sm">
+				<p>corporate social responsibilty</p>
+			</div>
+			<!--  trigger modal -->
+			<div class="video col-md-6 second-image-above-footer hidden-xs hidden-sm" data-toggle="modal" data-target="#myModal">
+				<p>ABC energy swimas case study video</p>
+			</div>
+			<!-- Modal -->
+			<div id="myModal" class="modal fade">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title">XXXXXXXX ZZZZZZZZ</h4>
+						</div>
+						<div class="modal-body">
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="video" src="https://www.youtube.com/embed/a6AZO3H9hxs?autoplay=0&amp;cc_load_policy=0&amp;controls=0&amp;disablekb=1&amp;enablejsapi=1&amp;fs=0&amp;hd=1&amp;iv_load_policy=3&amp;loop=1&amp;playlist=a6AZO3H9hxs&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;showsearch=0&amp;rel=0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
     </div> 
-    <footer class="container-fluid">
-    		<div class="row contact-details">
-    		       <div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-0 social-media"> <!-- Ask for the relevant colors on roll-over -->	    			 
-		    				<a href="#" class="items"><div class="fa fa-twitter" aria-hidden="true"></div></a> 
-							<a href="#" class="items"><div class="fa fa-youtube-play" aria-hidden="true"></div></a>
-							<a href="#" class="items"><div class="fa fa-linkedin-square" aria-hidden="true"></div></a>
-							<a href="#" class="items"><div class="fa fa-flickr" aria-hidden="true"></div></a>
-    			   </div>
-    			   <div class="col-xs-12 col-sm-4 col-md-4 email">
-	    			   		<p>Email us: sales@arcenergy.co.uk</p>
-    			   </div>
-    			   <div class="col-xs-12 col-sm-4 col-md-4 tel">
-	    			   		<p>Call us: +44(0) 1453 823 523</p>
-    			   </div>
+    <footer class="container-fluid color-white">
+    		<div class="row contact-details footer-fixed">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-0 social-media text-left"> <!-- Ask for the relevant colors on roll-over -->
+                            <a href="#" class="items"><div class="fa fa-twitter" aria-hidden="true"></div></a>
+                            <a href="#" class="items"><div class="fa fa-youtube-play" aria-hidden="true"></div></a>
+                            <a href="#" class="items"><div class="fa fa-linkedin-square" aria-hidden="true"></div></a>
+                            <a href="#" class="items"><div class="fa fa-flickr" aria-hidden="true"></div></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 email text-center">
+                            <p>Email us: sales@arcenergy.co.uk</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 tel text-right">
+                            <p>Call us: +44(0) 1453 823 523</p>
+                        </div>
+                    </div>
+                </div>
     		</div>
-    		<div class="container">
+    		<div class="container base-footer">
 	    		<div class="row">
-			    		<ul class="col-xs-12 col-sm-12 col-md-12 col-lg-6 footer-menu">
+			    		<div class="col-xs-12 col-sm-9 col-md-7 col-lg-6  text-left">
+                            <ul class="footer-menu">
 				    		<li><a href="#">Copyright Arc Energy 2017</a><span class="pipe hidden-xs ">|</span></li>
 				    		<li><a href="#">Legal Information</a><span class="pipe hidden-xs">|</span></li>
 				    	    <li><a href="#">Privacy Policy</a><span class="pipe hidden-xs">|</span></li>
 				    		<li><a href="#">Site Map</a></li>
-				    	</ul>
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 address-details">
+                            </ul>
+				    	</div>
+						<div class="col-xs-12 col-sm-3 col-md-5 col-lg-6 address-details text-right">
 				    		<address>
-			    				  Arc Energy Limited, Unit 12, Eastington Industrial Estate, <br class="hidden-md" /> Meadow Mill, Eastington, Gloucestershire, GL10 3RZ, UK
+			    				  Arc Energy Limited, Unit 12, Eastington Industrial Estate, <br class="visible-lg" /> Meadow Mill, Eastington, Gloucestershire, GL10 3RZ, UK
 			    			</address> 
 			    		</div>
 				</div>
@@ -124,6 +286,36 @@
             $('div').on('show.bs.dropdown', function () {
                 $('body').addClass('open-sub-nav');
             });
+
+            $.fn.visible = function(partial) {
+
+                var $t            = $(this),
+                    $w            = $(window),
+                    viewTop       = $w.scrollTop(),
+                    viewBottom    = viewTop + $w.height(),
+                    _top          = $t.offset().top,
+                    _bottom       = _top + $t.height(),
+                    compareTop    = partial === true ? _bottom : _top,
+                    compareBottom = partial === true ? _top : _bottom;
+
+                return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+            };
+            var win = $(window);
+            var footer = $("body > footer > .container");
+			if (footer.visible(true)) {
+				footer.removeClass("footer-fixed");
+            }
+
+            win.scroll(function(event) {
+				if (footer.visible(true)) {
+                    $('.contact-details').removeClass("footer-fixed");
+                }
+                else {
+                    $('.contact-details').addClass("footer-fixed");
+				}
+            });
+
         });
     </script>
 </body>
