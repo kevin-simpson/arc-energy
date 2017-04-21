@@ -33,12 +33,15 @@
         line-height: 24px;
         font-weight: 600;
     }
+
     .navbar-collapse {
         flex-basis: auto;
     }
+
     .mr-auto {
         margin-right: 0 !important;
     }
+
     .navbar > .container {
         position: relative;
     }
@@ -164,7 +167,7 @@ body {
 .arc-logo {
   /*width: 297px;*/
   height: 82px;
-  margin-top: 13px;
+  margin-top: 30px;
   margin-bottom: 13px;
 }
 
@@ -216,6 +219,10 @@ ul li a {
      /* text-decoration-color: #ff5000; */
  } 
 
+                          .caption a:hover {
+                                background-color: #ff5000;
+                                color: #fff;
+                           } 
 
 .top-nav {
   margin-top: 39px;
@@ -308,8 +315,6 @@ a:hover {
   color: #FF5000;;
   /*background-color: #FF5000;*/
 }
-
-
 
 .subsection-title h2 {
    font-size: 18px;
@@ -468,12 +473,12 @@ footer {
 
 .title-banner-subtext {
   background-color: #fe5001;
-  height: 275px;
+  height: 350px;
   margin-bottom: 50px;
 }
 
 .title-banner-subtext h1 {
-  margin-top: 80px;
+  margin-top: 135px;
   color: #fff;
 }
 
@@ -482,26 +487,19 @@ footer {
 }
 
 .space-divide {
-  margin-top: 25px;
+  margin-top: 34px;
 }
 
-.bold-text{
-  font-weight: bold;
-  margin-top: 100px;
-}
-
-.breadcrumb-trail {
+.breadcrumb {
    color: #fe5001;
+   margin-left: -11px;
+   background-color: transparent;
 }
 
 .breadcrumb-trail {
    color: #fe5001;
    margin-top: 100px;
 } 
-
-.space-breadcrumb {
-   margin-bottom: 60px;
-}
 
 .main-background-image {
   background: url(../assets/images/services-background-image.jpg); 
@@ -653,6 +651,11 @@ button p {
   padding-right: 0px;
 }
 
+
+            .no-padding-left img {
+              border: 1px solid #949798;
+            }
+
 .process-text h2 {
     color: #ff5000;
     margin-bottom: 31px;
@@ -670,13 +673,38 @@ button p {
             }
 
 .centre-of-excellence-r_d h2 {
-        color: #ff6024;
-        font-size: 40px;
+    color: #ff6024;
+    font-size: 40px;
 }    
 
 .second-column-lower {
-        margin-top: 44px;
-}      
+    margin-top: 44px;
+}
+
+#primary-menu {
+    margin-top: 37px;
+}
+
+.no-padding-left {
+    margin-left: -5px;
+}
+
+.parent-breadcrumb {
+    color: #050505;
+    margin-left: 11px;
+}
+
+.accred-image {
+     margin-bottom: 25px;
+}
+
+.accreditation-footer {
+     margin-top: 75px;
+}
+
+.bold-text {
+      font-weight: bold;
+}
 
 /* Media Queries */
 
